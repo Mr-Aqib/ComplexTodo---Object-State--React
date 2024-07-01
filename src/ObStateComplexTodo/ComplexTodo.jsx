@@ -41,7 +41,7 @@ const ComplexTodo = () => {
   return (
       <>
           <div className="container">
-              <div className="col-lg-5 mx-auto p-3 rounded-5 shadow">
+              <div className="  ctcol col-lg-5 mx-auto p-3 rounded-5 shadow">
                   <h2 className='text-white text-center'>
                     Complex-Todo Object States
                   </h2>
@@ -55,7 +55,7 @@ const ComplexTodo = () => {
                       </button>
                   </form>
               </div>
-              <div className="rounded-5  my-3 col-lg-6 d-flex flex-column mx-auto p-3 shadow rounded-2">
+              <div className="rounded-5  my-3 col-lg-6 d-flex flex-column mx-auto  p-3 rounded-2">
                   <h1 className='text-center yt'>Your Todo</h1>
                   {inputdata?.map((items, index) =>
                   {
