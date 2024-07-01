@@ -41,7 +41,7 @@ const ComplexTodo = () => {
   return (
       <>
           <div className="container">
-              <div className="  ctcol col-lg-5 mx-auto p-3 rounded-5 shadow">
+              <div className="  ctcol my-2 border border-1 border-white col-lg-5 mx-auto p-3 rounded-5 shadow">
                   <h1 className='text-white text-center'>
                     Complex-Todo Object States
                   </h1>
