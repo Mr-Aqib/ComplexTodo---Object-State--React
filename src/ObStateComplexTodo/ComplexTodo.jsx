@@ -42,17 +42,26 @@ const ComplexTodo = () => {
       <>
           <div className="container">
               <div className="  ctcol col-lg-5 mx-auto p-3 rounded-5 shadow">
-                  <h2 className='text-white text-center'>
+                  <h1 className='text-white text-center'>
                     Complex-Todo Object States
-                  </h2>
+                  </h1>
                   <form action="">
-                      <label htmlFor="">Work</label>
+                      <label className='fs-3' htmlFor="">Work</label>
                       <input name='work' onChange={inputHandle} value={work} type="text" className='my-3 form-control' />
-                      <label htmlFor="">Date</label>
+                      <label  className='fs-3' htmlFor="">Date</label>
                       <input name='when' onChange={inputHandle} value={when} type="date" className='form-control' />
-                      <button onClick={handleChange} className="btn my-2 btn-success w-50 d-block mx-auto">
-                          Add Todo
-                      </button>
+                      
+                      <button onClick={handleChange} className="d-flex flex-row  align-items-center justify-content-center my-3  d-block mx-auto">
+  <div classNm="svg-wrapper-1">
+    <div className="svg-wrapper">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path fill="currentColor"  d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+      </svg>
+    </div>
+  </div>
+  <span>Send</span>
+</button>
                   </form>
               </div>
               <div className="rounded-5  my-3 col-lg-6 d-flex flex-column mx-auto  p-3 rounded-2">

@@ -24,9 +24,9 @@ const TodoData = ({ when, work, index, remove }) => {
             <input onClick={handleClick} onChange={()=>setDone(!done)} type="checkbox"  />
                   </div>
                   <div className="text-white card-body d-flex flex-row align-items-center justify-content-between ">
-            <p className="mb-0" style={{
+            <h4 className="mb-0" style={{
               textDecoration: `${done? 'line-through':'none'}`
-            }}>{when}</p>
+            }}>{when}</h4>
             
               <MdDeleteForever  onClick={()=>remove(index)}  size={25}  />
              
