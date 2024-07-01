@@ -1,8 +1,13 @@
 import React from 'react'
-
+import ComplexTodo from './ObStateComplexTodo/ComplexTodo'
+import './global.css'
+import { Toaster } from 'react-hot-toast';
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <ComplexTodo />
+      <Toaster/>
+    </>
   )
 }
 
